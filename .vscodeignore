@@ -1,0 +1,26 @@
+# Development configuration
+.vscode/**
+.github/**
+.gitignore
+.vscodeignore
+.yarnrc
+vsc-extension-quickstart.md
+**/tsconfig.json
+**/eslint.config.mjs
+**/.vscode-test.*
+
+# Source and tests
+src/**
+out/test/**
+.vscode-test/**
+coverage/**
+**/*.ts
+**/*.map
+**/*.tsbuildinfo
+
+# Local files
+**/*.vsix
+**/*.log
+.env
+.env.*
+**/*.pat

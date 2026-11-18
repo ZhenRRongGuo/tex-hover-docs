@@ -18,6 +18,12 @@ TeX Hover Docs 可在 VS Code 中直接显示自定义 LaTeX 文档类和 Beamer
 \documentclass[lang=en]{MyClass}
 ```
 
+## 效果预览
+
+![悬停效果示例一](images/example1.png)
+
+![悬停效果示例二](images/example2.png)
+
 ## 为文档类添加说明
 
 在 `MyClass.cls` 中放置一个元数据块。标记行和 JSON 内容的每一行都必须是 LaTeX 注释。`name` 必须与 `\documentclass` 中使用的类名一致。
@@ -112,9 +118,13 @@ npx @vscode/vsce package
 如需从源码运行扩展，请在 VS Code 中打开本目录并按 `F5`，启动扩展开发宿主。生成的 `.vsix` 可通过以下命令安装：
 
 ```sh
-code --install-extension tex-hover-docs-0.0.1.vsix
+code --install-extension tex-hover-docs-0.1.0.vsix
 ```
 
 ## 支持范围与限制
 
 扩展只提供文档提示，不会校验选项，也不会改变 LaTeX 对选项的处理方式。当前识别直接写出的 `\documentclass[...]{...}` 和 `\usetheme[...]{...}` 命令，支持多行参数并忽略注释中的示例。扩展不会展开宏，也无法解析由其他命令动态生成的类名或主题名。同名定义同时存在时，工作区文件优先于 TeX 发行版中的文件。
+
+## 许可证
+
+[MIT](LICENSE)
