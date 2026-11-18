@@ -4,6 +4,8 @@
 
 TeX Hover Docs shows documentation for custom LaTeX classes and Beamer themes directly in VS Code. The documentation is stored in the corresponding `.cls` or `.sty` file, so it stays next to the definition it describes.
 
+> <span style="color: red; font-weight: bold;">⚠️ This project relies heavily on AI in its development. Although I have not found any problems in my own use so far, please evaluate the risks yourself.</span>
+
 ## Features
 
 - Hover over a class or theme name to see its description and documented options.

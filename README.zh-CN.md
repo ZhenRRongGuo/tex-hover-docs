@@ -4,6 +4,8 @@
 
 TeX Hover Docs 可在 VS Code 中直接显示自定义 LaTeX 文档类和 Beamer 主题的说明。说明内容保存在对应的 `.cls` 或 `.sty` 文件中，便于与定义一起维护。
 
+> <span style="color: red; font-weight: bold;">⚠️ 本项目重度依赖AI制作，虽然本人使用尚未发现问题，但请自行评估风险。</span>
+
 ## 功能
 
 - 悬停文档类或主题名称，查看整体说明和已记录的选项。
